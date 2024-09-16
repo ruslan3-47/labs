@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:lab1"
         mc:Ignorable="d"
-        Title="new" Height="1920" Width="1080">
+        Title="new" Height="1080" Width="1920">
     <Grid>
 
     </Grid>
