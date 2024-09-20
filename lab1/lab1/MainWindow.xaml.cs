@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using System.Runtime.Intrinsics.X86;
+using System.Text;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -19,6 +20,15 @@ namespace lab1
         public MainWindow()
         {
             InitializeComponent();
+            double a = double.Parse(Text1.Text);
+            double b = double.Parse(Text2.Text);
+            int n = int.Parse(Text3.Text);
+            Func<double, double> f = x => 7 * x - Math.Log2(7 * x) + 8;
+            Metod_Rectangular Resh = new Metod_Rectangular();
+            Answer.Text = Convert.ToString( Resh.resh(f, a, b, n));
         }
+        
+        
+        
     }
 }
