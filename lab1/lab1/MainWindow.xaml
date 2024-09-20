@@ -5,8 +5,31 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:lab1"
         mc:Ignorable="d"
-        Title="new" Height="1080" Width="1920">
-    <Grid>
-
+        Title="new" Height="480" Width="640">
+    <Grid x:Name="grid1">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="10"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="10"/>
+            <RowDefinition Height="60"/>
+            <RowDefinition Height="60"/>
+            <RowDefinition Height="60"/>
+            <RowDefinition Height="60"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <TextBlock Grid.Column="1" Grid.Row="1" Margin="5,20,5,20" >Введите нижний предел</TextBlock>
+        <TextBox Grid.Column="2" Grid.Row="1" Margin="5,15,5,20" RenderTransformOrigin="0.493,0.452"></TextBox>
+        <TextBlock Grid.Column="1" Grid.Row="2" Margin="5,20,5,20">Введите верхний предел</TextBlock>
+        <TextBox Grid.Column="2" Grid.Row="2" Margin="5,15,5,20"></TextBox>
+        <TextBlock Grid.Column="1" Grid.Row="3" Margin="5,20,5,20">Введите число разбиений</TextBlock>
+        <TextBox Grid.Column="2" Grid.Row="3" Margin="5,15,5,20" ></TextBox>
+        <Button Name="button3" Grid.Column="3" Grid.Row="2" Margin="5,5,5,5" Content="Расчитать"/>
+        <TextBlock Grid.Column="4" Grid.Row="2" Margin="5,20,5,20"/>
+        <TextBlock Grid.Column="2" Grid.Row="4" Margin="5,20,5,20"> Выберите типа интегрирования </TextBlock>
     </Grid>
 </Window>
