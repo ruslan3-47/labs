@@ -20,14 +20,17 @@ namespace lab1
         public MainWindow()
         {
             InitializeComponent();
+            button1.Click += Button_click;
+        }
+        void Button_click(object sender, EventArgs e)
+        {
             double a = double.Parse(Text1.Text);
             double b = double.Parse(Text2.Text);
             int n = int.Parse(Text3.Text);
             Func<double, double> f = x => 7 * x - Math.Log2(7 * x) + 8;
             Metod_Rectangular Resh = new Metod_Rectangular();
-            Answer.Text = Convert.ToString( Resh.resh(f, a, b, n));
+            Answer.Text = Convert.ToString(Resh.resh(f, a, b, n));
         }
-        
         
         
     }
