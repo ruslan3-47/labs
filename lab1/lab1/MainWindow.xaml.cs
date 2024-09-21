@@ -24,14 +24,21 @@ namespace lab1
         }
         void Button_click(object sender, EventArgs e)
         {
+            string r = MetodBox.Text;
             double a = double.Parse(Text1.Text);
             double b = double.Parse(Text2.Text);
             int n = int.Parse(Text3.Text);
             Func<double, double> f = x => 7 * x - Math.Log2(7 * x) + 8;
-            Metod_Rectangular Resh = new Metod_Rectangular();
-            Answer.Text = Convert.ToString(Resh.resh(f, a, b, n));
-        }
-        
-        
+            if (r == "метод прямоугольников")
+            {
+                Metod_Rectangular Resh = new Metod_Rectangular();
+                Answer.Text = Convert.ToString(Math.Round( Resh.resh(f, a, b, n),3));
+            }
+            else
+            {
+                Metod_Trapezoid Resh = new Metod_Trapezoid();
+                Answer.Text = Convert.ToString(Math.Round(Resh.resh(f, a, b, n),3));
+            }
+        }  
     }
 }
