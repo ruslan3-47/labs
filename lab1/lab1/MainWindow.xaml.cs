@@ -28,7 +28,7 @@ namespace lab1
             double a = double.Parse(Text1.Text);
             double b = double.Parse(Text2.Text);
             int n = int.Parse(Text3.Text);
-            Func<double, double> f = x => 7 * x - Math.Log2(7 * x) + 8;
+            Func<double, double> f = x => 10 * x - Math.Log2(14 * x);
             if (r == "метод прямоугольников")
             {
                 Metod_Rectangular Resh = new Metod_Rectangular();

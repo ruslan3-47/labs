@@ -11,7 +11,7 @@ namespace lab1
     {
         public abstract double resh(Func<double,double> f,double a,double b, int n);
     }
-    public class Metod_Trapezoid: Solv
+    public class Metod_Rectangular() : Solv
     {
         public override double resh(Func<double, double> f, double a, double b, int n)
         {
@@ -19,22 +19,22 @@ namespace lab1
             double area = 0.0;
             for (int i = 0; i<n;i++)
             {
-                area += f(((i + 0.5) * h + a) * h);
+                area += f(a+ i+0.5*h);
             }
-            return area;
+            return area*h;
         }
     }
-    public class Metod_Rectangular() : Solv
+    public class Metod_Trapezoid() : Solv
     {
         public override double resh(Func<double, double> f, double a, double b, int n)
         {
             double h = (b - a) / n;
-            double area = 0.0;
+            double area = 0.5*(f(a)+f(b));//сумма значений функции на границах
             for (int i = 0;i<n;i++)
             {
-                area += f(a + i * h) * h;
+                area += f(a + i * h);
             }
-            return area;
+            return area*h;
         }
     }
     //next class Trapezoid
