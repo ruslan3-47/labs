@@ -22,8 +22,10 @@
             <RowDefinition Height="60"/>
             <RowDefinition Height="60"/>
             <RowDefinition Height="60"/>
+			<RowDefinition Height="60"/>
             <RowDefinition/>
         </Grid.RowDefinitions>
+		<TextBlock Foreground="Green" FontSize="16" Grid.Column="1" Grid.Row="5" Margin="5,20,5,20" >как дела, Руслан?</TextBlock>
         <TextBlock Foreground="Green" FontSize="16" Grid.Column="1" Grid.Row="1" Margin="5,20,5,20" >Введите нижний предел</TextBlock>
         <TextBox Name="Text1" Foreground="Green" FontSize="16" Grid.Column="2" Grid.Row="1" Margin="5,15,5,20" RenderTransformOrigin="0.493,0.452" MaxLength="10"></TextBox>
         <TextBlock Foreground="Green" FontSize="16" Grid.Column="1" Grid.Row="2" Margin="5,20,5,20">Введите верхний предел</TextBlock>
