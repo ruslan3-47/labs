@@ -19,7 +19,8 @@ namespace lab1
             double area = 0.0;
             for (int i = 0; i<n;i++)
             {
-                area += f(a+ i+0.5*h);
+                area += f(a+ 0.5*h);
+                a += h;
             }
             return area*h;
         }
