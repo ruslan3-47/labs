@@ -5,11 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:lab1"
         mc:Ignorable="d"
-        Title="new" Height="auto" Width="auto" Background="Black" >
+        Title="Сунгатуллин Р.Р. 3-47" Height="auto" Width="auto" Background="Black" >
     <Grid x:Name="grid1">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="10"/>
-            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="13.859"/>
+            <ColumnDefinition Width="186.867"/>
             <ColumnDefinition Width="auto"/>
             <ColumnDefinition Width="200"/>
             <ColumnDefinition Width="200"></ColumnDefinition>
@@ -24,18 +25,18 @@
             <RowDefinition Height="60"/>
             <RowDefinition/>
         </Grid.RowDefinitions>
-        <TextBlock Foreground="Green" FontSize="16" Grid.Column="1" Grid.Row="1" Margin="5,20,5,20" >Введите нижний предел</TextBlock>
-        <TextBox Name="Text1" Foreground="Green" FontSize="16" Grid.Column="2" Grid.Row="1" Margin="5,15,5,20" RenderTransformOrigin="0.493,0.452" MaxLength="10"></TextBox>
-        <TextBlock Foreground="Green" FontSize="16" Grid.Column="1" Grid.Row="2" Margin="5,20,5,20">Введите верхний предел</TextBlock>
-        <TextBox Name="Text2" Foreground="Green" FontSize="16" Grid.Column="2" Grid.Row="2" Margin="5,15,5,20" MaxLength="10"></TextBox>
-        <TextBlock Foreground="Green" FontSize="16" Grid.Column="1" Grid.Row="3" Margin="5,20,5,20">Введите число разбиений</TextBlock>
-        <TextBox Name="Text3" Foreground="Green" FontSize="16" Grid.Column="2" Grid.Row="3" Margin="5,15,5,20" MaxLength="10" ></TextBox>
-        <Button BorderBrush="Green" Background="black" Foreground="green" Name="button1" FontSize="20" Grid.Column="3" Grid.Row="2" Margin="5,5,5,5" Content="Расчитать"/>
-        <Border BorderBrush="Green" BorderThickness="2" Grid.Column="4" Grid.Row="2" Margin="5,10,10,10">
+        <TextBlock Foreground="Green" FontSize="16" Grid.Column="1" Grid.Row="1" Margin="5,20,5,20" Grid.ColumnSpan="2" >Введите нижний предел</TextBlock>
+        <TextBox Name="Text1" Foreground="Green" FontSize="16" Grid.Column="3" Grid.Row="1" Margin="5,15,5,20" RenderTransformOrigin="0.493,0.452" MaxLength="10"></TextBox>
+        <TextBlock Foreground="Green" FontSize="16" Grid.Column="1" Grid.Row="2" Margin="5,20,5,20" Grid.ColumnSpan="2">Введите верхний предел</TextBlock>
+        <TextBox Name="Text2" Foreground="Green" FontSize="16" Grid.Column="3" Grid.Row="2" Margin="5,15,5,20" MaxLength="10"></TextBox>
+        <TextBlock Foreground="Green" FontSize="16" Grid.Column="1" Grid.Row="3" Margin="5,20,5,20" Grid.ColumnSpan="2">Введите число разбиений</TextBlock>
+        <TextBox Name="Text3" Foreground="Green" FontSize="16" Grid.Column="3" Grid.Row="3" Margin="5,15,5,20" MaxLength="10" ></TextBox>
+        <Button BorderBrush="Green" Background="black" Foreground="green" Name="button1" FontSize="20" Grid.Column="4" Grid.Row="2" Margin="5,5,5,5" Content="Расчитать"/>
+        <Border BorderBrush="Green" BorderThickness="2" Grid.Column="5" Grid.Row="2" Margin="5,10,10,10">
             <TextBlock  Name ="Answer"   Foreground="Green" Background="black" FontSize="20" Grid.Column="4" Grid.Row="2" Margin="5,10,10,10" VerticalAlignment="Center"/>
         </Border>
-        <TextBlock Foreground="Green" FontSize="16" Grid.Column="2" Grid.Row="4" Margin="5,20,5,20" > Выберите типа интегрирования</TextBlock>
-        <ComboBox Name="MetodBox" Grid.Column="3" Grid.Row="4" Margin="5" VerticalAlignment="Center" FontSize="16">
+        <TextBlock Foreground="Green" FontSize="16" Grid.Column="3" Grid.Row="4" Margin="5,20,5,20" > Выберите типа интегрирования</TextBlock>
+        <ComboBox Name="MetodBox" Grid.Column="4" Grid.Row="4" Margin="5,0,5,0" VerticalAlignment="Center" FontSize="16">
             <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="16">метод прямоугольников</TextBlock>
             <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="16">метод трапеций</TextBlock>
         </ComboBox>

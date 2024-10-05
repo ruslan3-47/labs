@@ -28,16 +28,16 @@ namespace lab1
             double a = double.Parse(Text1.Text);
             double b = double.Parse(Text2.Text);
             int n = int.Parse(Text3.Text);
-            Func<double, double> f = x => x;//10 * x - Math.Log2(14 * x
+            Func<double, double> f = x => x*x;
             if (r == "метод прямоугольников")
             {
                 Metod_Rectangular Resh = new Metod_Rectangular();
-                Answer.Text = Convert.ToString(Math.Round( Resh.resh(f, a, b, n),3));
+                Answer.Text = Convert.ToString(Math.Round( Resh.Resh(f, a, b, n),3));
             }
             else
             {
                 Metod_Trapezoid Resh = new Metod_Trapezoid();
-                Answer.Text = Convert.ToString(Math.Round(Resh.resh(f, a, b, n),3));
+                Answer.Text = Convert.ToString(Math.Round(Resh.Resh(f, a, b, n),3));
             }
         }  
     }
