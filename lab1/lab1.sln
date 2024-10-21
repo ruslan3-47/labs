@@ -5,17 +5,11 @@ VisualStudioVersion = 17.11.35222.181
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "lab1", "lab1\lab1.csproj", "{410F43B9-ADBB-42A9-A059-74917B9649AD}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestRectOtric", "TestRectOtric\TestRectOtric.csproj", "{2EF42D85-D13F-4CA6-9A5A-5F47D9129CE5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestOtric", "TestRectOtric\TestOtric.csproj", "{2EF42D85-D13F-4CA6-9A5A-5F47D9129CE5}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestTrapOtric", "TestTrapOtric\TestTrapOtric.csproj", "{A0676BB0-0B75-40C6-AC0C-6234DB283BD6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestWrongBorder", "TestRectWrongBorder\TestWrongBorder.csproj", "{632B13FB-F4C2-42AD-A465-6DF0AC6401BF}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestTrapWrongBorder", "TestTrapWrongBorder\TestTrapWrongBorder.csproj", "{FF4AE6A3-BAC7-4147-9D1F-C1A6003FFC60}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestRectWrongBorder", "TestRectWrongBorder\TestRectWrongBorder.csproj", "{632B13FB-F4C2-42AD-A465-6DF0AC6401BF}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestNormalDAtaREct", "TestNormalDAtaREct\TestNormalDAtaREct.csproj", "{9BE40761-551C-4047-B432-C7AFD11DB43E}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestNormalDataTrap", "TestNormalDataTrap\TestNormalDataTrap.csproj", "{E213E1C6-0086-4B2C-9112-00F047F15558}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestNormalData", "TestNormalDAtaREct\TestNormalData.csproj", "{9BE40761-551C-4047-B432-C7AFD11DB43E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,14 +25,6 @@ Global
 		{2EF42D85-D13F-4CA6-9A5A-5F47D9129CE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2EF42D85-D13F-4CA6-9A5A-5F47D9129CE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2EF42D85-D13F-4CA6-9A5A-5F47D9129CE5}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A0676BB0-0B75-40C6-AC0C-6234DB283BD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A0676BB0-0B75-40C6-AC0C-6234DB283BD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A0676BB0-0B75-40C6-AC0C-6234DB283BD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A0676BB0-0B75-40C6-AC0C-6234DB283BD6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FF4AE6A3-BAC7-4147-9D1F-C1A6003FFC60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FF4AE6A3-BAC7-4147-9D1F-C1A6003FFC60}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FF4AE6A3-BAC7-4147-9D1F-C1A6003FFC60}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FF4AE6A3-BAC7-4147-9D1F-C1A6003FFC60}.Release|Any CPU.Build.0 = Release|Any CPU
 		{632B13FB-F4C2-42AD-A465-6DF0AC6401BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{632B13FB-F4C2-42AD-A465-6DF0AC6401BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{632B13FB-F4C2-42AD-A465-6DF0AC6401BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -47,10 +33,6 @@ Global
 		{9BE40761-551C-4047-B432-C7AFD11DB43E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9BE40761-551C-4047-B432-C7AFD11DB43E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9BE40761-551C-4047-B432-C7AFD11DB43E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E213E1C6-0086-4B2C-9112-00F047F15558}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E213E1C6-0086-4B2C-9112-00F047F15558}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E213E1C6-0086-4B2C-9112-00F047F15558}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E213E1C6-0086-4B2C-9112-00F047F15558}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TestRectWrongBorder")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7fdba7acdfe621e92cfb8aa60f423c016ea4e349")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+96e42b025eead958c69b27857a64bf048a6692f7")]
 [assembly: System.Reflection.AssemblyProductAttribute("TestRectWrongBorder")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TestRectWrongBorder")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

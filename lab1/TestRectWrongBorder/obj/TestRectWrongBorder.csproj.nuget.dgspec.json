@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\school\\obrabotka\\labs\\lab1\\TestRectWrongBorder\\TestRectWrongBorder.csproj": {}
+    "D:\\hogwarts\\labi\\labs\\labs\\lab1\\TestRectWrongBorder\\TestRectWrongBorder.csproj": {}
   },
   "projects": {
-    "D:\\school\\obrabotka\\labs\\lab1\\lab1\\lab1.csproj": {
+    "D:\\hogwarts\\labi\\labs\\labs\\lab1\\lab1\\lab1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\school\\obrabotka\\labs\\lab1\\lab1\\lab1.csproj",
+        "projectUniqueName": "D:\\hogwarts\\labi\\labs\\labs\\lab1\\lab1\\lab1.csproj",
         "projectName": "lab1",
-        "projectPath": "D:\\school\\obrabotka\\labs\\lab1\\lab1\\lab1.csproj",
-        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "D:\\school\\obrabotka\\labs\\lab1\\lab1\\obj\\",
+        "projectPath": "D:\\hogwarts\\labi\\labs\\labs\\lab1\\lab1\\lab1.csproj",
+        "packagesPath": "C:\\Users\\кампутер руслана\\.nuget\\packages\\",
+        "outputPath": "D:\\hogwarts\\labi\\labs\\labs\\lab1\\lab1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\кампутер руслана\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -72,20 +72,20 @@
         }
       }
     },
-    "D:\\school\\obrabotka\\labs\\lab1\\TestRectWrongBorder\\TestRectWrongBorder.csproj": {
+    "D:\\hogwarts\\labi\\labs\\labs\\lab1\\TestRectWrongBorder\\TestRectWrongBorder.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\school\\obrabotka\\labs\\lab1\\TestRectWrongBorder\\TestRectWrongBorder.csproj",
+        "projectUniqueName": "D:\\hogwarts\\labi\\labs\\labs\\lab1\\TestRectWrongBorder\\TestRectWrongBorder.csproj",
         "projectName": "TestRectWrongBorder",
-        "projectPath": "D:\\school\\obrabotka\\labs\\lab1\\TestRectWrongBorder\\TestRectWrongBorder.csproj",
-        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "D:\\school\\obrabotka\\labs\\lab1\\TestRectWrongBorder\\obj\\",
+        "projectPath": "D:\\hogwarts\\labi\\labs\\labs\\lab1\\TestRectWrongBorder\\TestRectWrongBorder.csproj",
+        "packagesPath": "C:\\Users\\кампутер руслана\\.nuget\\packages\\",
+        "outputPath": "D:\\hogwarts\\labi\\labs\\labs\\lab1\\TestRectWrongBorder\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\кампутер руслана\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -101,8 +101,8 @@
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
             "projectReferences": {
-              "D:\\school\\obrabotka\\labs\\lab1\\lab1\\lab1.csproj": {
-                "projectPath": "D:\\school\\obrabotka\\labs\\lab1\\lab1\\lab1.csproj"
+              "D:\\hogwarts\\labi\\labs\\labs\\lab1\\lab1\\lab1.csproj": {
+                "projectPath": "D:\\hogwarts\\labi\\labs\\labs\\lab1\\lab1\\lab1.csproj"
               }
             }
           }
