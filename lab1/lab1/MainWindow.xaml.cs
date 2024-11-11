@@ -9,6 +9,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Diagnostics;
 
 namespace lab1
 {
@@ -32,12 +33,35 @@ namespace lab1
             if (r == "метод прямоугольников")
             {
                 Metod_Rectangular Resh = new Metod_Rectangular();
+                Stopwatch sw = new Stopwatch();
+                
                 Answer.Text = Convert.ToString(Math.Round( Resh.Resh(f, a, b, n),3));
+                
+                sw.Start();
+                var norm = Resh.Resh(f,a, b, n);
+                sw.Stop();
+                Time1.Text = sw.Elapsed.ToString();
+                Stopwatch sw1 = new Stopwatch();
+                sw1.Start();
+                var Parallel = Resh.Resh_Paralel(f,a,b,n);
+                sw1.Stop();
+                Time2.Text = sw1.Elapsed.ToString();
             }
             else
             {
                 Metod_Trapezoid Resh = new Metod_Trapezoid();
+                Stopwatch sw2 = new Stopwatch();
+                
                 Answer.Text = Convert.ToString(Math.Round(Resh.Resh(f, a, b, n),3));
+                sw2 .Start();
+                var Norm = Resh.Resh(f, a, b, n);
+                sw2 .Stop();
+                Time1.Text = sw2.Elapsed.ToString();
+                Stopwatch sw3 = new Stopwatch();
+                sw3.Start();
+                var Par = Resh.Resh_Paralel(f,a,b,n);
+                sw3 .Stop();
+                Time2.Text = sw3.Elapsed.ToString();
             }
         }  
     }

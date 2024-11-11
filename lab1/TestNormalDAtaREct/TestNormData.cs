@@ -30,5 +30,6 @@ namespace TestNormalDAta
             double Proverca = trapezoid.Resh(func, lower, upper, count);
             Assert.AreEqual(exception, Proverca, 0.1);
         }
+
     }
 }

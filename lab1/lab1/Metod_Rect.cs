@@ -29,5 +29,30 @@ namespace lab1
             area = area * h;
             return area;
         }
+        public  double Resh_Paralel(Func<double, double> f, double a, double b, int n)
+        {
+            if (n <= 0)
+            {
+                throw new ArgumentException("Неверно задано число разбиений");
+            }
+            if ((a >= b) | (a == 0) | (b == 0))
+            {
+                throw new ArgumentException("Неверно заданы границы интегрирования");
+            }
+            double h = (b - a) / n;
+            double area = 0.0;
+            double[] partialsums = new double[n];
+            Parallel.For(0, n, i =>
+            {
+                partialsums[i] = f(a + (i + 0.5) * h);
+            });
+            for (int i = 0; i < n; i++)
+            {
+
+                area += partialsums[i];
+            }
+            area = area * h;
+            return area;
+        }
     }
 }

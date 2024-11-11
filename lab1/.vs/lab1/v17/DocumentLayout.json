@@ -1,12 +1,172 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\hogwarts\\labi\\labs\\labs\\lab1\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{410F43B9-ADBB-42A9-A059-74917B9649AD}|lab1\\lab1.csproj|d:\\hogwarts\\labi\\labs\\labs\\lab1\\lab1\\metod_trap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{410F43B9-ADBB-42A9-A059-74917B9649AD}|lab1\\lab1.csproj|solutionrelative:lab1\\metod_trap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{410F43B9-ADBB-42A9-A059-74917B9649AD}|lab1\\lab1.csproj|d:\\hogwarts\\labi\\labs\\labs\\lab1\\lab1\\metod_rect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{410F43B9-ADBB-42A9-A059-74917B9649AD}|lab1\\lab1.csproj|solutionrelative:lab1\\metod_rect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{410F43B9-ADBB-42A9-A059-74917B9649AD}|lab1\\lab1.csproj|d:\\hogwarts\\labi\\labs\\labs\\lab1\\lab1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{410F43B9-ADBB-42A9-A059-74917B9649AD}|lab1\\lab1.csproj|solutionrelative:lab1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{410F43B9-ADBB-42A9-A059-74917B9649AD}|lab1\\lab1.csproj|d:\\hogwarts\\labi\\labs\\labs\\lab1\\lab1\\int.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{410F43B9-ADBB-42A9-A059-74917B9649AD}|lab1\\lab1.csproj|solutionrelative:lab1\\int.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{410F43B9-ADBB-42A9-A059-74917B9649AD}|lab1\\lab1.csproj|d:\\hogwarts\\labi\\labs\\labs\\lab1\\lab1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{410F43B9-ADBB-42A9-A059-74917B9649AD}|lab1\\lab1.csproj|solutionrelative:lab1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BE40761-551C-4047-B432-C7AFD11DB43E}|TestNormalDAtaREct\\TestNormalData.csproj|d:\\hogwarts\\labi\\labs\\labs\\lab1\\testnormaldatarect\\testnormdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BE40761-551C-4047-B432-C7AFD11DB43E}|TestNormalDAtaREct\\TestNormalData.csproj|solutionrelative:testnormaldatarect\\testnormdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BE40761-551C-4047-B432-C7AFD11DB43E}|TestNormalDAtaREct\\TestNormalData.csproj|d:\\hogwarts\\labi\\labs\\labs\\lab1\\testnormaldatarect\\testnormaldata.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9BE40761-551C-4047-B432-C7AFD11DB43E}|TestNormalDAtaREct\\TestNormalData.csproj|solutionrelative:testnormaldatarect\\testnormaldata.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{410F43B9-ADBB-42A9-A059-74917B9649AD}|lab1\\lab1.csproj|d:\\hogwarts\\labi\\labs\\labs\\lab1\\lab1\\lab1.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{410F43B9-ADBB-42A9-A059-74917B9649AD}|lab1\\lab1.csproj|solutionrelative:lab1\\lab1.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{410F43B9-ADBB-42A9-A059-74917B9649AD}|lab1\\lab1.csproj|d:\\hogwarts\\labi\\labs\\labs\\lab1\\lab1\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{410F43B9-ADBB-42A9-A059-74917B9649AD}|lab1\\lab1.csproj|solutionrelative:lab1\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 233,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\hogwarts\\labi\\labs\\labs\\lab1\\lab1\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "lab1\\MainWindow.xaml",
+              "ToolTip": "D:\\hogwarts\\labi\\labs\\labs\\lab1\\lab1\\MainWindow.xaml",
+              "RelativeToolTip": "lab1\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-11T05:51:59.581Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TestNormData.cs",
+              "DocumentMoniker": "D:\\hogwarts\\labi\\labs\\labs\\lab1\\TestNormalDAtaREct\\TestNormData.cs",
+              "RelativeDocumentMoniker": "TestNormalDAtaREct\\TestNormData.cs",
+              "ToolTip": "D:\\hogwarts\\labi\\labs\\labs\\lab1\\TestNormalDAtaREct\\TestNormData.cs",
+              "RelativeToolTip": "TestNormalDAtaREct\\TestNormData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T14:33:12.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\hogwarts\\labi\\labs\\labs\\lab1\\lab1\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "lab1\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\hogwarts\\labi\\labs\\labs\\lab1\\lab1\\MainWindow.xaml.cs",
+              "RelativeToolTip": "lab1\\MainWindow.xaml.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowDkAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T14:15:50.661Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TestNormalData.csproj",
+              "DocumentMoniker": "D:\\hogwarts\\labi\\labs\\labs\\lab1\\TestNormalDAtaREct\\TestNormalData.csproj",
+              "RelativeDocumentMoniker": "TestNormalDAtaREct\\TestNormalData.csproj",
+              "ToolTip": "D:\\hogwarts\\labi\\labs\\labs\\lab1\\TestNormalDAtaREct\\TestNormalData.csproj",
+              "RelativeToolTip": "TestNormalDAtaREct\\TestNormalData.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-10T14:15:44.607Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "D:\\hogwarts\\labi\\labs\\labs\\lab1\\lab1\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "lab1\\AssemblyInfo.cs",
+              "ToolTip": "D:\\hogwarts\\labi\\labs\\labs\\lab1\\lab1\\AssemblyInfo.cs",
+              "RelativeToolTip": "lab1\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T14:15:41.522Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Metod_Trap.cs",
+              "DocumentMoniker": "D:\\hogwarts\\labi\\labs\\labs\\lab1\\lab1\\Metod_Trap.cs",
+              "RelativeDocumentMoniker": "lab1\\Metod_Trap.cs",
+              "ToolTip": "D:\\hogwarts\\labi\\labs\\labs\\lab1\\lab1\\Metod_Trap.cs",
+              "RelativeToolTip": "lab1\\Metod_Trap.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwCYAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T14:15:29.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Metod_Rect.cs",
+              "DocumentMoniker": "D:\\hogwarts\\labi\\labs\\labs\\lab1\\lab1\\Metod_Rect.cs",
+              "RelativeDocumentMoniker": "lab1\\Metod_Rect.cs",
+              "ToolTip": "D:\\hogwarts\\labi\\labs\\labs\\lab1\\lab1\\Metod_Rect.cs",
+              "RelativeToolTip": "lab1\\Metod_Rect.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAgwC4AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T14:15:28.335Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "int.cs",
+              "DocumentMoniker": "D:\\hogwarts\\labi\\labs\\labs\\lab1\\lab1\\int.cs",
+              "RelativeDocumentMoniker": "lab1\\int.cs",
+              "ToolTip": "D:\\hogwarts\\labi\\labs\\labs\\lab1\\lab1\\int.cs",
+              "RelativeToolTip": "lab1\\int.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T14:15:25.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "lab1",
+              "DocumentMoniker": "D:\\hogwarts\\labi\\labs\\labs\\lab1\\lab1\\lab1.csproj",
+              "RelativeDocumentMoniker": "lab1\\lab1.csproj",
+              "ToolTip": "D:\\hogwarts\\labi\\labs\\labs\\lab1\\lab1\\lab1.csproj",
+              "RelativeToolTip": "lab1\\lab1.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-26T13:03:10.46Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
